@@ -185,10 +185,10 @@ const VideoDetector: React.FC = () => {
                   Analysis Details
                 </h3>
                 <div className="space-y-3">
-                  {Object.entries(result.details).map(([key, value]) => (
+                  {Object.entries(result.details || {}).map(([key, value]) => (
                     <div key={key} className="flex items-center">
                       <div className="w-3 h-3 bg-factify-400 rounded-full mr-3"></div>
-                      <div className="text-sm text-gray-600">{value}</div>
+                      <div className="text-sm text-gray-600">{String(value)}</div>
                     </div>
                   ))}
                 </div>
