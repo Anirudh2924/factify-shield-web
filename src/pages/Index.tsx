@@ -33,13 +33,11 @@ const Index: React.FC = () => {
   return (
     <Layout>
       <div className="home-page">
-        {/* Animated background circles */}
         <div className="home-bg-circle home-bg-circle1"></div>
         <div className="home-bg-circle home-bg-circle2"></div>
         <div className="home-bg-circle home-bg-circle3"></div>
         <div className="home-bg-circle home-bg-circle4"></div>
         
-        {/* Hero Section */}
         <section className="py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center justify-between">
@@ -88,7 +86,6 @@ const Index: React.FC = () => {
           </div>
         </section>
 
-        {/* Stats Section */}
         <section className="py-16">
           <div className="container mx-auto px-4">
             <div className="stats-container p-8 md:p-12">
@@ -110,7 +107,6 @@ const Index: React.FC = () => {
           </div>
         </section>
 
-        {/* Detector Cards */}
         <section id="detectors" className="detector-section py-20">
           <div className="container mx-auto px-4">
             <h2 className="text-center text-3xl md:text-4xl font-bold mb-16 hero-title">
@@ -141,7 +137,6 @@ const Index: React.FC = () => {
           </div>
         </section>
 
-        {/* Trust Section */}
         <section className="py-16">
           <div className="container mx-auto px-4">
             <div className="trust-section p-8 md:p-12">
@@ -184,7 +179,6 @@ const Index: React.FC = () => {
           </div>
         </section>
 
-        {/* CTA Section */}
         <section className="py-16 mb-16">
           <div className="container mx-auto px-4">
             <div className="cta-section py-16 px-8 text-center text-white">
