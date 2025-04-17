@@ -76,9 +76,9 @@ const Index: React.FC = () => {
                 </svg>
                 <div className="relative z-10 p-3 rounded-xl shadow-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&auto=format&fit=crop&w=1200"
-                    alt="AI detecting fake news illustration"
-                    className="w-full h-auto rounded-lg shadow-lg"
+                    src="/lovable-uploads/e75dc68a-8c27-4be9-9fc1-e7c500ec6bc1.png"
+                    alt="GitHub Octocat mascot"
+                    className="w-full h-auto rounded-lg shadow-lg object-cover"
                   />
                 </div>
               </div>
